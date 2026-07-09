@@ -1,0 +1,30 @@
+{
+  "name": "Power System Fault Detection and Classification",
+  "description": "A Machine Learning-based web application for detecting and classifying power system faults using Random Forest. Developed using IBM Cloud Lite and IBM Cloud Object Storage as part of the Edunet Foundation - IBM SkillsBuild Internship Program.",
+  "version": "1.0.0",
+  "repository": "https://github.com/bitsnbytes12/Power-System-Fault-Detection",
+  "keywords": [
+    "Machine Learning",
+    "Power System",
+    "Fault Detection",
+    "Random Forest",
+    "Flask",
+    "Python",
+    "IBM Cloud Lite",
+    "IBM Cloud Object Storage",
+    "Edunet",
+    "IBM SkillsBuild"
+  ],
+  "author": {
+    "name": "Anuska Bhattacharya"
+  },
+  "license": "MIT",
+  "website": "https://github.com/bitsnbytes12/Power-System-Fault-Detection",
+  "technologies": {
+    "language": "Python",
+    "framework": "Flask",
+    "machine_learning": "Scikit-learn (Random Forest)",
+    "cloud": "IBM Cloud Lite",
+    "storage": "IBM Cloud Object Storage"
+  }
+}
