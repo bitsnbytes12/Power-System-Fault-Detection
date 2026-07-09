@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Power System Fault Detection</title>
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h1>Power System Fault Detection</h1>
+
+<form action="/predict" method="POST">
+
+<input type="number" step="any" name="voltage" placeholder="Voltage" required>
+
+<input type="number" step="any" name="current" placeholder="Current" required>
+
+<input type="number" step="any" name="power" placeholder="Power Load" required>
+
+<input type="number" step="any" name="temperature" placeholder="Temperature" required>
+
+<input type="number" step="any" name="wind" placeholder="Wind Speed" required>
+
+<input type="number" step="any" name="duration" placeholder="Fault Duration" required>
+
+<input type="number" step="any" name="downtime" placeholder="Downtime" required>
+
+<br><br>
+
+<select name="weather">
+
+<option>Rainy</option>
+
+<option>Sunny</option>
+
+<option>Stormy</option>
+
+<option>Cloudy</option>
+
+</select>
+
+<select name="maintenance">
+
+<option>Up-to-date</option>
+
+<option>Overdue</option>
+
+</select>
+
+<select name="health">
+
+<option>Good</option>
+
+<option>Fair</option>
+
+<option>Poor</option>
+
+</select>
+
+<br><br>
+
+<button type="submit">
+
+Predict
+
+</button>
+
+</form>
+
+<h2>
+
+{{ prediction_text }}
+
+</h2>
+
+</body>
+
+</html>
