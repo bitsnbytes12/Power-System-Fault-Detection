@@ -16,9 +16,8 @@
     "IBM SkillsBuild"
   ],
   "author": {
-    "name": "Anuska Bhattacharya"
+    "name": "Anuska Bhattacharyya"
   },
-  "license": "MIT",
   "website": "https://github.com/bitsnbytes12/Power-System-Fault-Detection",
   "technologies": {
     "language": "Python",
